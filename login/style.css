@@ -593,4 +593,26 @@ body {
         transform: translateX(-50%);
         z-index: 999;
     }
+.dashboard-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 24px;
+    padding: 40px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: successPulse 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logout-btn {
+    width: 100%;
+    margin-top: 20px;
+    background: linear-gradient(135deg, #ef4444 0%, #b91c1c 100%) !important;
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4) !important;
+}
+
+.logout-btn:hover {
+    box-shadow: 0 8px 25px rgba(239, 68, 68, 0.6) !important;
+}
 }
